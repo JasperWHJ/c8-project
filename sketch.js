@@ -6,9 +6,9 @@ var enemyGroup;
 var state = "play";
 
 function preload() {
-  ninjaImg = loadImage("images/ninja.png");
-  enemyImg = loadImage("images/enemy.png");
-  gameOverImg = loadImage("images/gameOver.png");
+  ninjaImg = loadImage("ninja.png");
+  enemyImg = loadImage("enemy.png");
+  gameOverImg = loadImage("gameOver.png");
 }
 
 function setup() {
